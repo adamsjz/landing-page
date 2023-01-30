@@ -112,16 +112,18 @@ a {
     display: flex;
     flex: 1;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 32px;
-    margin: 16px;
+    padding: 16px;
+    margin: 32px;
 }
 
 .info-content {
     display: flex;
     flex: 1;
     text-align: center;
+    justify-content: space-between;
+    margin: 8px;
 }
 
 .info-image-placeholder {
@@ -131,7 +133,7 @@ a {
     width: 128px;
     border: 3px solid #3882f6;
     border-radius: 24px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: auto;
 }
@@ -165,21 +167,26 @@ a {
 
 .signup {
     background-color: #3882F6;
+    max-width: auto;
+    max-height: auto;
     color: #f9Faf8;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 32px;
-    margin: 64px;
+    padding: 12px;
+    margin: 64px 64px;
     border-radius: 10px;
 }
 
 .signup-left {
-    padding-right: 32px;
+    padding: 0 32px;
+    justify-content: center;
+    align-items: center;
 }
 
 .signup-right {
     padding: 8px 16px;
+    margin-right: 32px;
     border-radius: 8px;
     display: flex;
     color: #e0e5eb;
@@ -187,6 +194,8 @@ a {
     border: 1px solid #e0e5eb;
     max-width: 80px;
     max-height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
